@@ -1,0 +1,142 @@
+body {
+    background: url(images/M.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+}
+
+.zoom-body {
+    
+    background-color:white;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+}
+
+
+.zoom-background {
+    background-color:whitesmoke;
+    width: 42%;
+    height: 42%;
+}
+
+
+h1 {
+    color: rgb(224, 138, 19);
+    text-align: center;
+}
+
+
+
+
+
+.main-body-text {
+    color:whitesmoke;
+    text-align: center;
+    
+}
+
+
+
+
+h2 {
+    color:rgb(224, 138, 19);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: rgb(224, 138, 19);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+h3 {
+    color:rgb(224, 138, 19);
+}
+
+
+
+
+a {
+    color: rgb(253, 182, 82);
+    
+}
+
+
+
+ul, ol {
+    
+    list-style-image: image("Image/fractal-icon.png");
+    color:whitesmoke;
+
+}
+
+
+
+
+.menu {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+}
+
+
+
+
+#table1 {
+    height: 400px;
+    width: 50%;
+    column-width: 140px;
+    border: 5px;
+    border-color: aliceblue;
+    border-width: 51px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px;
+    background-color: rgb(9, 18, 45);
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px;
+    background-color: rgb(224, 138, 19);
+
+
+}
+
+#logo {
+    text-shadow: 10px;
+    outline-color: rgb(224, 138, 19);
+    font-size: 50px;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+

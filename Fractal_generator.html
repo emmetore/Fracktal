@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fracktal</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Fracktal Zoom Generator</title>
 
 
 </head>
 
 <body>
-    <h1>Fracktal</h1>
+    <div class="center"><a href="Fracktal.html"><img id="logo-img" src="Images/fractal-icon-1.png"></a></div>
+
+    <h3 class="menu"><a href="fractals-in-nature.html">Fractals in Nature</a>   |    <a href="fractals-in-art.html">Fractals in Art </a>    |    <a href="fractal_generator.html">Fractal Generator </a></h3>
 
     <h2>Mandlebrot Fractal Zoom</h2>
 
@@ -21,8 +24,10 @@
     </form> -->
 
     <!-- <canvas id="tree_fractal_canvas" width="1000" height="800"></canvas> -->
+    <div class="zoom-background">
     <canvas id="mandlebrot_fractal_canvas"></canvas>
     <script src="fractal_generator.js"></script>
+    </div>
 
 </body>
 
